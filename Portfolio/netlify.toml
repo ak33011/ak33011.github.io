@@ -1,0 +1,8 @@
+[build]
+  publish = "build"
+  command = "yarn build"
+[[redirects]]
+  from = "https://ankushkambleportfolio.netlify.com/*"
+  to = "https://www.ankushkambleportfolio.com/:splat"
+  status = 301
+  force = true
